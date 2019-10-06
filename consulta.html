@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DNS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="barra">
+    </nav>
+    <header>
+        <h1>DNS</h1>
+        <p><i>Sistema de nombres de dominio.</i></p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><button type="button" class="boton">Inicio</button></a></li>
+            <li><a href="zonas.html"><button type="button" class="boton">Zonas</button></a></li>
+            <li><a href="Comprobar.html"><button type="button" class="boton">Comprobar</button></a></li>
+            <li><a href="consulta.html"><button type="button" class="boton">Consulta</button></a></li>
+            <li><a href="servidor.html"><button type="button" class="boton">Servidor</button></a></li>
+            <li><a href="puerto.html"><button type="button" class="boton">Puertos DNS</button></a></li>
+        </ul>
+    </nav>
+    <h3>CONSULTAR DNS</h3>
+    
+    <center>
+        <table id="conte" width="80%" align="center">
+            <tr align="center">
+                <td width="70%">
+                    <p id="txt">
+                        La consulta dns consiste primero en verificar o comprobar primero los dns de un dominio y
+                        luego de conocer los dns autoritativos para ese dominio, obtener los registros de la zona DNS,
+                        como pueden ser el tipo A (la dirección IPv4 del dominio), el tipo AAAA (la dirección IPv6 del
+                        dominio), el tipo MX (el servidor de correo del dominio), el tipo CNAME, el tipo TXT y otros 
+                        datos que pueden estar incluidos en la zona DNS, así como el SOA, el TTL, etc. 
+                        <br>Al hacer la consulta dns lo primero que podrás darte cuenta es de si el servidor dns está o no disponible
+                        o si obtienes un mensaje de error o ningún mensaje en absoluto que pueda indicar que el servidor
+                        dns no responde.<br><br>
+                    </p>
+                </td width="30%">
+                    <td><img src="imagenes/consulta.jpg" alt="" width="300px" height="300px"></td>
+            </tr>
+            
+            <tr><td><br><br><br></td></tr>
+
+            <tr align="center">
+                <td>
+                    <h3>CAMBIAR DNS</h3>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <p id="txt">
+                        El procedimiento para cambiar dns puede referirse a dos situaciones. Una, la de cambiar dns en el panel
+                        del registrador de dominios donde fue registrado el dominio. Esta operación se hace normalmente cuando se
+                        ha cambiado de servicio de hosting y por tanto se cambian los dns de un proveedor para indicar los dns del
+                        nuevo proveedor de web hosting. La otra situación a la que puede referirse el cambiar dns puede ser cuando
+                        se hacen cambios en la dirección IP que apunta hacia el servidor dns físico.<br>En el primer caso, para cambiar
+                        dns por cambios en el servicio de hosting, se debe contactar a la empresa (registrador) donde se registró el 
+                        dominio. En el segundo caso, lo habitual es que se haga cargo de este procedimiento el administrador de 
+                        sistemas que opera el servidor dns<br><br>
+                    </p>
+                </td>
+                <td><img src="imagenes/cambiar.jpg" alt="" width="250px" height="250px"></td>  
+            </tr>
+        </table>
+    </center>
+    <footer>
+        <h4>Universidad Autónoma de Chiapas</h4>
+        <p>Boulevard Belisario Domínguez, Kilómetro 1081</p>
+        <p>&copy; Derechos reservados By: Baldomero Gómez Domínguez</p>
+    </footer>
+</body>
+</html>

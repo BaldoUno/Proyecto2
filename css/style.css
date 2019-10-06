@@ -1,0 +1,219 @@
+/*
+*{
+    margin: 0;
+}
+body{
+  background-color:#FFF;
+}
+header{
+    padding: 50px;
+    height: 50px;
+    color: #1A5276;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    padding-left: 20px;
+    color:#212F3D ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    padding: 50px;
+    color:#E60065;
+    text-align: center;
+    font-size: 60px;
+}
+nav{
+    background: #EAECEE;
+    color:#212F3D;
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+}
+#barra{
+    background: #94066D;
+    margin-top: 5px;
+    height: 5px;
+    width: 100%;
+}
+nav ul li{
+    padding: 15px 20px 0 20px;
+    display: inline;
+    list-style: none;
+}
+nav ul li a .boton:hover{
+    background:#94066D;
+    color: #EAECEE;
+}
+
+#txt{
+    width: 60%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#con{
+    border:solid;
+    margin: 10px;
+    padding: 20px;
+}
+#conte{
+    border: none;
+}
+
+img{
+    width: 65%;
+}
+
+#sub{
+    color:#FC0471;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#con{
+    border:solid;
+    margin: 10px;
+    padding: 20px;
+}
+
+#jpg{
+    padding: 0;
+    width: 60%;
+    height: auto;
+}
+
+.boton{
+    height: 30px;
+    background-color: #212F3D;
+    border: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    background:#212F3D;
+    font-family: fantasy;
+    font-size: 20px;
+}
+footer{
+    background: #590138;
+    color: white;
+    padding:15px;
+    text-align: center;
+}
+*/
+*{
+    margin: 0;
+}
+body{
+  background-color:#FFF;
+}
+header{
+    padding: 50px;
+    height: 50px;
+    color: #1A5276;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    padding-left: 20px;
+    color:#212F3D ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.boton{
+    height: 30px;
+    background: #E60065;
+    color: #fff;
+    border: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+h3{
+    padding: 50px;
+    color:#E60065;
+    text-align: center;
+    font-size: 60px;
+}
+nav{
+    background: #EAECEE;
+    color:#212F3D;
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+}
+#barra{
+    background: #94066D;
+    margin-top: 5px;
+    height: 5px;
+    width: 100%;
+}
+nav ul li{
+    padding: 15px 20px 0 20px;
+    display: inline;
+    list-style: none;
+}
+nav ul li a .boton:hover{
+    background:#EAECEE;
+    color: #E60065;
+}
+
+#txt{
+    width: 60%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.icon{
+    width: auto;
+    height: auto;
+}
+
+#texto{
+    width: 60%;
+    height: auto;
+    text-align: justify;
+    line-height: 30px;
+}
+/*#con{
+    border:solid;
+    margin: 10px;
+    padding: 20px;
+}*/
+#conte{
+    border: none;
+}
+
+img{
+    width: 65%;
+}
+
+#sub{
+    color:#FC0471;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#lista{
+    height: 38px;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer{
+    background: #590138;
+    color: white;
+    padding:15px;
+    text-align: center;
+}

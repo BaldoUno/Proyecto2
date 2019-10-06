@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DNS</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <nav id="barra">
+    </nav>
+    <header>
+        <h1>DNS</h1>
+        <p><i>Sistema de nombres de dominio.</i></p>
+    </header>
+    <nav>
+            <ul>
+            <li><a href="index.html"><button type="button" class="boton">Inicio</button></a></li>
+            <li><a href="zonas.html"><button type="button" class="boton">Zonas</button></a></li>
+            <li><a href="Comprobar.html"><button type="button" class="boton">Comprobar</button></a></li>
+            <li><a href="consulta.html"><button type="button" class="boton">Consulta</button></a></li>
+            <li><a href="servidor.html"><button type="button" class="boton">Servidor</button></a></li>
+            <li><a href="puerto.html"><button type="button" class="boton">Puertos DNS</button></a></li>
+            </ul>
+        </nav>
+    <h3>QUÉ SON LAS ZONAS</h3>
+    <center>
+        <br>
+        <p id="txt">
+            Los datos del sistema de nombres de dominio (DNS) se dividen en conjuntos gestionables de datos llamados zonas. Y cada uno de estos conjuntos corresponde a un tipo de zona concreto.
+            <br><br>Las zonas contienen información sobre nombres y direcciones IP acerca de una o más partes de un dominio DNS.
+            <br><br>El servidor que contiene toda la información de una zona se considera el servidor autorizador del dominio, llamado zona padre. A veces conviene delegar la autorización para responder a las consultas de DNS de un subdominio determinado a otro servidor DNS, que se llama zona hija. En tal caso, el servidor DNS del dominio puede configurarse de tal forma que las consultas del subdominio se remitan al servidor apropiado.
+            <br><br>Por cuestión de seguridad y redundancia, los datos de zona suelen almacenarse en servidores que no sean el servidor DNS autorizador. Estos otros servidores se denominan servidores secundarios, que cargan los datos de zona del servidor autorizador. Si se configuran servidores secundarios, podrá equilibrar la demanda de servidores, y proporciona también una copia de seguridad en caso de que el servidor primario no esté operativo. Los servidores secundarios obtienen los datos de zona mediante transferencias de zona desde el servidor autorizador. Cuando se inicializa un servidor secundario, este carga una copia completa de los datos de zona del servidor primario. El servidor secundario también vuelve a cargar los datos de zona del servidor primario o de otros servidores secundarios de ese dominio cuando los datos de zona se modifican.
+            <br><br>
+        </p>
+        <img class="img" src="imagenes/zonas.jpg" alt="">
+
+        <h1 id="txts">TIPOS DE ZONAS DNS</h1>
+        <br>
+        <p id="txt">
+            Puede utilizar el DNS de IBM i para definir varios tipos de zonas que le ayuden a gestionar los datos del DNS:
+            <br><br> <b>Zona primaria</b> La zona primaria carga los datos de zona directamente a partir de un archivo de un host. Puede contener una subzona o zona hija. También puede contener registros de recursos, como los registros de host, de alias (CNAME), de dirección IPv4 (A), de dirección IPv6 (AAAA) o de puntero de correlación inversa (PTR).
+            <br>Nota: Las zonas primarias se denominan en ocasiones zonas maestras en la documentación adicional sobre BIND.
+            <br><br><b>Subzona</b> La subzona es una zona que se encuentra dentro de la zona primaria. Las subzonas permiten organizar los datos de zona en cantidades más manejables.
+            <br><br><b>Zona hija:</b> La zona hija es una subzona que delega la responsabilidad sobre los datos de la subzona a uno o más servidores de nombres.
+            <br>Alias (CNAME): El alias es un nombre alternativo para el nombre del dominio primario.
+            <br><br><b>Host:</b>EL objeto host correlaciona los registros A y PTR con un host. Puede haber registros de recursos adicionales asociados a un host.
+            <br><br><b>Zona secundaria: </b>La zona secundaria carga los datos de zona desde el servidor primario de una zona o desde otro servidor secundario. Mantiene una copia completa de la zona a la que pertenece.
+            <br>Nota: Las zonas secundarias se denominan en ocasiones zonas esclavas en la      documentación adicional sobre BIND.
+            <br><br><b>Zona apéndice:</b>La zona apéndice es similar a una zona secundaria, pero solo transfiere los registros del servidor de nombres (NS) de dicha zona.
+            <br><br>Zona de reenvío: La zona de reenvío dirige todas las consultas de esa zona concreta a otros servidores.
+            <br><br>
+        </p>
+    </center>
+    <footer>
+        <h4>Universidad Autónoma de Chiapas</h4>
+        <p>Boulevard Belisario Domínguez, Kilómetro 1081</p>
+        <p>&copy; Derechos reservados By: Baldomero Gómez Domínguez</p>
+    </footer>
+</body>
+</html>
